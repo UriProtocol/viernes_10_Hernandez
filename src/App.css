@@ -1,0 +1,47 @@
+.app{
+  min-height: 100vh;
+}
+.btn1{
+  background-color: black;
+  border: 3px solid black;
+}
+a{
+  margin-inline: 1rem;
+}
+.wrapper-center{
+  padding-inline: 5rem;
+  padding-block: 1rem; 
+}
+.carousel img{
+  height: 600px;
+  width: 100%;
+}
+.home2{
+  display: flex;
+  font-size: 1rem;
+  margin: 2rem;
+  padding: 1rem;
+}
+.home2 div{
+  margin: 1rem;
+}
+
+.spinner{
+  animation: spinner 6s linear infinite;
+  font-size: 1.75rem;
+  margin-bottom: 0.15rem;
+  opacity: 0.5;
+}
+
+@keyframes spinner {
+  100%{
+    rotate: 360deg;
+  }
+}
+
+.logout-facebook{
+  padding: 0.5rem 1rem;
+  color: #fff;
+  background-color: #316fdb;
+  font-weight: 500;
+}
